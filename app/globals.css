@@ -9,8 +9,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #ffffff;
+    --foreground: #000000;
   }
 }
 
@@ -18,4 +18,83 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+  font-size:3rem;
+  font-weight: 600;
+  letter-spacing:-2px;
+}
+
+.Appbar{
+  display:flex;
+  align-items: center;
+  width:100%;
+  flex-direction:row;
+  padding:0.5rem;
+  justify-content: space-between;
+}
+
+.logo-placeholder{
+  width:50%;
+}
+
+.nav-buttons{
+  display:flex;
+  flex-direction: row;
+  gap:2rem;
+  width:50%;
+  justify-content: end;
+}
+
+.nav-button{
+  display: flex;
+  align-items: center;
+  font-size:1.5rem;
+}
+
+.intro-text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size:3rem;
+  font-weight:600;
+  text-align:center;
+  width:60%;
+  line-height: 3rem;
+  letter-spacing: -2px;
+}
+
+.landing-section{
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction: column;
+  padding-top:4rem;
+}
+
+.intro-subtext{
+  font-size:1.75rem;
+  font-weight:600;
+  letter-spacing:-1px;
+  opacity:80%;
+}
+
+.main-landing-section{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction:column;
+  padding-top:4rem;
+}
+
+.landing-section-button{
+  font-size:1.5rem;
+  margin-top:2rem;
+  padding:1rem;
+  background-color:#0000002a;
+  border:1px solid white;
+  border-radius:10px;
+  font-weight:500;
 }
